@@ -64,14 +64,19 @@ img {
 }
 
 @media (max-width: 768px) {
-  /* Evita que el menú superior se amontone en pantallas pequeñas */
+  /* Apila el logo y los enlaces de navegación en columna para evitar amontonamientos */
   .nav-content {
+    flex-direction: column;
+    align-items: flex-start;
     padding: 1rem;
-    flex-direction: row; /* Mantiene logo y menú alineados pero compactos */
-    flex-wrap: wrap;
+    gap: 0.75rem;
   }
 
-  /* Ajusta el relleno del banner principal para que no ocupe demasiado espacio lateral */
+  .nav-logo {
+    font-size: 1.15rem;
+  }
+
+  /* Ajusta el relleno del banner principal para pantallas pequeñas */
   .hero-banner {
     padding: 2rem 1rem;
   }
