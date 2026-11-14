@@ -6,10 +6,10 @@
   "description": "Manual interactivo de mantenimiento preventivo y correctivo de equipos de cómputo",
   "author": "Miguel Rodriguez",
   "scripts": {
-    "dev": "vite",
-    "build": "npx vite build",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "node ./node_modules/vite/bin/vite.js build",
+  "preview": "vite preview"
+},
   "devDependencies": {
     "vite": "^5.0.0"
   },
