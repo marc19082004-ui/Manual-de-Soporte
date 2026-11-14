@@ -14,7 +14,7 @@ export function renderPreventivoPage(container) {
       </p>
     </div>
 
-    <!-- NUEVA SECCIÓN: RUTINAS DE BUENAS PRÁCTICAS, CUIDADOS Y SUGERENCIAS CON IMAGEN ALUSIVA -->
+    
     <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius); overflow: hidden; margin-bottom: 2.5rem; box-shadow: var(--shadow);">
       <div style="height: 200px; overflow: hidden; border-bottom: 1px solid var(--border-color);">
         <img src="https://timly.com/wp-content/uploads/2026/01/mantenimiento_maquinaria-1536x831.jpg" alt="Buenas prácticas de mantenimiento preventivo" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.85);">
@@ -39,7 +39,7 @@ export function renderPreventivoPage(container) {
       </div>
     </div>
 
-    <!-- Filtros de categoría -->
+    
     <div class="filter-buttons" style="display: flex; gap: 0.75rem; background: var(--bg-card); padding: 0.85rem 1rem; border-radius: var(--radius); border: 1px solid var(--border-color); align-items: center; margin-bottom: 2rem;">
       <span style="font-size: 0.875rem; font-weight: 600; color: var(--text-muted); margin-right: 0.5rem;">Filtrar preventivo:</span>
       <button class="filter-cat active" data-categoria="all" style="padding: 0.45rem 1.15rem; border-radius: 8px; border: 1px solid var(--border-color); background: var(--accent); color: white; cursor: pointer; font-size: 0.875rem; font-weight: 600;">Todos</button>

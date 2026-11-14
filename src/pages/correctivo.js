@@ -14,7 +14,7 @@ export function renderCorrectivoPage(container) {
       </p>
     </div>
 
-    <!-- NUEVA SECCIÓN: MECANISMOS DE PRECAUCIÓN Y ESD CON IMAGEN ALUSIVA -->
+   
     <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius); overflow: hidden; margin-bottom: 2.5rem; box-shadow: var(--shadow);">
       <div style="height: 200px; overflow: hidden; border-bottom: 1px solid var(--border-color);">
         <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80" alt="Protocolos de precaución y seguridad antiestática" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.85);">
@@ -39,7 +39,7 @@ export function renderCorrectivoPage(container) {
       </div>
     </div>
 
-    <!-- Filtros de categoría -->
+    
     <div class="filter-buttons" style="display: flex; gap: 0.75rem; background: var(--bg-card); padding: 0.85rem 1rem; border-radius: var(--radius); border: 1px solid var(--border-color); align-items: center; margin-bottom: 2rem;">
       <span style="font-size: 0.875rem; font-weight: 600; color: var(--text-muted); margin-right: 0.5rem;">Filtrar correctivo:</span>
       <button class="filter-cat active" data-categoria="all" style="padding: 0.45rem 1.15rem; border-radius: 8px; border: 1px solid var(--border-color); background: #f43f5e; color: white; cursor: pointer; font-size: 0.875rem; font-weight: 600;">Todos</button>

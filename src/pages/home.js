@@ -12,7 +12,7 @@ export function renderHomePage(container, onNavigate) {
       </div>
     </div>
 
-    <!-- SECCIÓN: ¿POR QUÉ IMPORTA EL MANTENIMIENTO? -->
+    
     <section style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius); padding: 2.5rem; margin-bottom: 2.5rem; box-shadow: var(--shadow);">
       <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem;">¿Por qué es vital realizar mantenimiento técnico?</h2>
       <p style="color: var(--accent); font-weight: 600; margin-bottom: 1.25rem; font-size: 0.95rem;">La prevención asegura la continuidad operativa y protege tu inversión en hardware.</p>
@@ -27,7 +27,7 @@ export function renderHomePage(container, onNavigate) {
       </div>
     </section>
 
-    <!-- ACCESOS RÁPIDOS A MÓDULOS -->
+   
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
       <div class="guide-card" style="cursor: pointer; overflow: hidden; padding: 0;" id="card-prev">
         <div style="height: 140px; overflow: hidden;">

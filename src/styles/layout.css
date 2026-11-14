@@ -51,3 +51,44 @@ header {
   border-radius: 50%;
   z-index: 0;
 }
+
+/* ==========================================
+   ADAPTACIÓN PARA MÓVILES (RESPONSIVE DESIGN)
+   ================================---------- */
+
+/* Asegura que las imágenes no rebasen el ancho de la pantalla del celular */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  /* Evita que el menú superior se amontone en pantallas pequeñas */
+  .nav-content {
+    padding: 1rem;
+    flex-direction: row; /* Mantiene logo y menú alineados pero compactos */
+    flex-wrap: wrap;
+  }
+
+  /* Ajusta el relleno del banner principal para que no ocupe demasiado espacio lateral */
+  .hero-banner {
+    padding: 2rem 1rem;
+  }
+
+  /* Transforma filas y contenedores flexibles generales en columnas verticales */
+  .flex, .row, .grid, .container, .contenedor, .seccion {
+    flex-direction: column !important;
+    display: flex !important;
+    width: 100% !important;
+    box-sizing: border-box;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Previene desbordamientos laterales en el cuerpo de la página */
+  body, #root {
+    overflow-x: hidden;
+    padding: 0 4px;
+  }
+}
